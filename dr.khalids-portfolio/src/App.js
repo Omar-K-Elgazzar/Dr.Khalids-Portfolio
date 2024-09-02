@@ -15,9 +15,7 @@ import Contact from './Pages/Contact';
 function App() {
   return (
     <Router>
-      <div style={{ display: 'flex' }}>
         <Sidebar />
-        <div className = "content">
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/Research" component={Research} />
@@ -28,8 +26,6 @@ function App() {
             <Route path="/Publications" component={Publications} />
             <Route path="/Contact" component={Contact} />
           </Switch>
-        </div>
-      </div>
     </Router>
   );
 }

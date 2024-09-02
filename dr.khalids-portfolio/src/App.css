@@ -4,17 +4,3 @@
   height: 100vh;
   overflow: hidden; /* Prevents scrollbars if content fits the screen */
 }
-
-.Sidebar {
-  height: 100vh;
-  width: 250px; /* Fixed width for the sidebar */
-  position: fixed; /* Sidebar stays in place on scroll */
-  background-color: cadetblue;
-}
-
-.content {
-  flex-grow: 1; /* Takes up the remaining space */
-  padding: 20px; /* Optional: Adds some spacing inside the content area */
-  overflow: auto; /* Allows scrolling within the content area if needed */
-  margin-left: 250px; /* Push content to the right by the sidebar's width */
-}
